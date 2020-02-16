@@ -19,4 +19,6 @@ public class User extends BaseEntity {
 	private String name;
 	@Enumerated(EnumType.STRING)
 	private AccountType accountType;
+	@Column
+	private String password;
 }
